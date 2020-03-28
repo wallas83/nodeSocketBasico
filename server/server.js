@@ -21,7 +21,7 @@ io.on('connection', (client) => {
     });
     //escuchar el cliente
     client.on('enviarMensaje', (message) => {
-        console.log(message)
+        console.log(messagse)
     });
 });
 
